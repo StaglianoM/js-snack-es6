@@ -17,6 +17,7 @@ const Squadre = [
     },
 ];
 
+
 Squadre.forEach(squadra => {
     squadra.points = Math.floor(Math.random()*100);
     squadra.foul = Math.floor(Math.random()*25);
